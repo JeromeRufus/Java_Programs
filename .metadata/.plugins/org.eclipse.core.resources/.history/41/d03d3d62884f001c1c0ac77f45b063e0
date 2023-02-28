@@ -1,0 +1,17 @@
+package Bank_inheritence;
+
+public class View_Student {
+
+	
+	public void DisplayStudentDetails() {
+		StudentDetails ref = new StudentDetails();
+		ref.setStudentName("jerome");
+		ref.setStudentId(644);
+		ref.setMoblieNo(123456789);
+		System.out.println("Student Name "+ref.getStudentName());
+		System.out.println("Student Id "+ref.getStudentId());
+		System.out.println("Student Moblie Number "+ref.getMoblieNO());
+		
+	}		
+		
+}

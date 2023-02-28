@@ -1,0 +1,15 @@
+package Bank_inheritence;
+
+public class KVB extends Indian{
+	public void kvb() {
+		super.Bankname="KVB";
+		super.BankBranch="main branch";
+		super.Bankaddress="CBE";
+		super.Bankifsc=1234;
+		System.out.println(Bankname);
+		System.out.println(BankBranch);
+		System.out.println(Bankaddress);
+		System.out.println(Bankifsc);
+	}
+
+}

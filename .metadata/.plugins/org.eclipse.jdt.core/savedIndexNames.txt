@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\java programs\sem partical\.metadata\.plugins\org.eclipse.jdt.core
+2971399504.index
+1377914264.index
+2972099361.index
+4193334377.index
+3883950653.index

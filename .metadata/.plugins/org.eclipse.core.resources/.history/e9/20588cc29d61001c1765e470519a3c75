@@ -1,0 +1,39 @@
+package XOXO;
+
+public class Rows_Column {
+	
+	char[][] arr = new char[3][3];
+	
+	public void Display (char arr[][]) {
+		
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<3;j++) {
+				System.out.print("|"+arr[i][j]);
+			}
+			System.out.println("|");
+		}	
+	}
+	
+	public void Replace(char arr2[][],char replace,char find) {
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<3;j++) {
+				if(arr2[i][j] == replace) {
+					arr2[i][j] = find;
+					
+				}
+			}
+		}	
+	}
+	public boolean checkrow(char arr[3][3]) {
+		if(arr[0][i] || arr[1][i] || arr[2][i]) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+	public boolean checkcolumn()
+	
+	
+}

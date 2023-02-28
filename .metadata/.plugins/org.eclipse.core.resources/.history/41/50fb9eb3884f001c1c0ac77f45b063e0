@@ -1,0 +1,22 @@
+package Bank_inheritence;
+
+import java.util.Scanner;
+
+public class View_Student {
+
+	
+	public void DisplayStudentDetails() {
+		Scanner scan = new Scanner(System.in);
+		int a;
+	
+		StudentDetails ref = new StudentDetails();
+		ref.setStudentName("jerome");
+		a=scan.nextInt(ref.setStudentId(a));
+		ref.setMoblieNo(123456789);
+		System.out.println("Student Name "+ref.getStudentName());
+		System.out.println("Student Id "+ref.getStudentId());
+		System.out.println("Student Moblie Number "+ref.getMoblieNO());
+		
+	}		
+		
+}
